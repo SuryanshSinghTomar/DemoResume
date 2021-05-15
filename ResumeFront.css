@@ -1,0 +1,117 @@
+body{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: double;
+}
+
+
+#Personal_Details{
+    border: 1px rgb(95, 3, 3);   
+    height: 200px;
+    color: bisque;
+    background-color: black;    
+} 
+
+.detail{
+    padding-left: 5px;
+    
+}
+
+.h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: verdana;
+}
+
+.detail{    
+    color: white;
+    font-family: helvetica;
+}
+
+
+.listing{
+    list-style: none;
+}
+
+img{
+    margin-top: -130px;
+    margin-right: 20px;
+    min-width: 15%;
+    /* max-width: 15%; */
+    height: 80%;
+    float: right;
+}
+
+.cr_objective{
+    background-color: rgb(238, 189, 116);
+}
+
+#cr_objective{
+    margin-left: 5%;
+}
+
+.education_detail{
+    border: 1px black;
+    /* height: 250px; */
+    background-color: blanchedalmond;    
+}
+
+
+#ed_detail{ 
+   background-color: blanchedalmond;   
+}
+
+table,th,tr,td{
+    text-align: center;
+    table-layout: fixed;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;    
+}
+
+.table-margin{
+    margin-left: 5%;
+}
+.skill{
+    background-color: rgb(123, 184, 238);
+}
+
+#skills{
+    margin-left: 5%;  
+}
+.projects{
+    background-color: rgb(237, 238, 170);
+}
+#projects{
+    margin-left: 5%;
+}
+#unused{
+    height: 25px;
+}
+
+.personal-details{ 
+    background-color: aqua;
+}
+ 
+ .pr_detail{
+     display: flex;
+}
+ 
+.pr_detail div :first-child{
+    width: 40%;
+}
+
+.pr_detail div :last-child{
+    width: 600%;
+}
+
+#pr_detail{ 
+       margin-left: 5%;
+}
+
+.last{
+    background-color: red;
+    height: 3px;
+}
